@@ -2,7 +2,7 @@
 import { gsap } from "gsap";
 
 type FadeInProps = {
-  className?: String;
+  className?: string;
   vars?: gsap.TweenVars;
   children: React.ReactNode;
 };
